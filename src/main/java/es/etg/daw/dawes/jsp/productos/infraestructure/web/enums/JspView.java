@@ -6,8 +6,9 @@ package es.etg.daw.dawes.jsp.productos.infraestructure.web.enums;
 public enum JspView {
 
     PRODUCT_LIST("productos-lista"),
-    PRODUCT_FORM("productos-formulario"),
+    PRODUCT_FORM("producto-formulario"),
     PRODUCT_DETAIL("productos-detalle"),
+    PRODUCT_CREATED("producto-creado"),
     ERROR_GENERIC("error/error-general");
 
     private final String path;

@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import es.etg.daw.dawes.jsp.productos.application.usecase.FindProductoUseCase;
-import es.etg.daw.dawes.jsp.productos.domain.model.Producto;
+import es.etg.daw.dawes.jsp.productos.domain.model.producto.Producto;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor

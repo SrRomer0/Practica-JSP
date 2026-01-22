@@ -1,4 +1,4 @@
-package es.etg.daw.dawes.jsp.productos.domain.model;
+package es.etg.daw.dawes.jsp.productos.domain.model.producto;
 
 import es.etg.daw.dawes.jsp.common.domain.model.Identificador;
 

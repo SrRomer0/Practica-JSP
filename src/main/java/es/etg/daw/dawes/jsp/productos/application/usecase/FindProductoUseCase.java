@@ -2,13 +2,13 @@ package es.etg.daw.dawes.jsp.productos.application.usecase;
 
 import java.util.List;
 
-import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Service;
 
-import es.etg.daw.dawes.jsp.productos.domain.model.Producto;
+import es.etg.daw.dawes.jsp.productos.domain.model.producto.Producto;
 import es.etg.daw.dawes.jsp.productos.domain.repository.ProductoRepository;
 import lombok.RequiredArgsConstructor;
 
-@Controller
+@Service
 @RequiredArgsConstructor
 public class FindProductoUseCase {
     

@@ -8,10 +8,9 @@ import lombok.Data;
  */
 @Data
 @AllArgsConstructor
-public class ProductoResponse {
-    
-    private Integer id;
+public class ProductoRequest {
+
     private String nombre;
     private Double precio;
-    private Integer categoriaId;
+    private int categoriaId;
 }
